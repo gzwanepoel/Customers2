@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textViewFirstname"
+        android:text="Victor Leboho"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+  
+  <TextView
+        android:id="@+id/textViewLastname"
+        android:text="Victor Leboho"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+    <TextView
+        android:id="@+id/textViewIdNumer"
+        android:text="8411245932083"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="0dp"
+        android:layout_weight="2.5"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+    <TextView
+        android:id="@+id/textViewAge"
+        android:text="29"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+</LinearLayout>
